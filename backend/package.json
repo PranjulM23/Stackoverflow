@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node --watch backend --exec node backend/server.js",
+    "dev": "nodemon --watch backend --exec node backend/server.js"
   },
   "keywords": [],
   "author": "",
